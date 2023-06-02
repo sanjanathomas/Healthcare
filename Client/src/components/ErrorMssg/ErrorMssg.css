@@ -1,0 +1,13 @@
+.error {
+    background-color: rgb(165, 2, 4, .25);
+    color: #a50204;
+    padding: 10px 15px;
+    font-size: 14px;
+}
+
+.close-icon {
+    float: right;
+    transform: scale(1.5);
+    margin-top: 4px;
+    cursor: pointer;
+}

@@ -1,0 +1,20 @@
+
+
+   .date-edit {
+    /* display: ; */
+   }
+
+   .ant-picker.ant-picker-borderless {
+    border: none !important;
+    border-bottom: 1px solid black !important;
+    border-radius: inherit !important;
+   }
+
+.date-time-border {
+    border-bottom: 1px solid black !important;
+    border-radius: inherit;
+}
+
+.acc-spacing {
+    margin-bottom: 13px;
+}

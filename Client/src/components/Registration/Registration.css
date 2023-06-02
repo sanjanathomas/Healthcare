@@ -1,0 +1,48 @@
+.login-header {
+    font-size: 50px;
+}
+
+.submit-button {
+    background-color: #a50104;
+    /* background-color: #2f6690; */
+    color: #fff;
+    box-shadow: none;
+    outline: none;
+    width: 14rem;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+button:hover, button:focus {
+    outline: none;
+    box-shadow: none !important;
+  }
+
+.submit-button:hover {
+    color: white;
+}
+
+input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.show-error-mssg {
+    color: #a50104;
+    margin-bottom: 0px;
+    font-family: orpheus-pro;
+    font-weight: 500;
+}
+
+.hide-error-mssg {
+    display: none;
+}
+
+.required:after {
+    content:" *";
+    color: #a50104;
+  }
+
+  .select-opt:hover {
+    background-color: #f0f0f0;
+}

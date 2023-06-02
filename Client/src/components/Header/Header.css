@@ -1,0 +1,192 @@
+.custom-navbar {
+    background-color: #fff;
+    color: #fff;
+    /* border-bottom: 7px solid #2f6690; */
+    box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+}
+
+.logo {
+    width: 4.5rem;
+    transform: scale(.8);
+}
+
+.healthcare-title-container {
+    margin-bottom: -12px;
+    margin-top: -13px;
+}
+
+.healthcare-sub-title {
+    /* font-family: cursive; */
+    margin-bottom: -9px;
+    font-size: 25px;
+    /* font-weight: 700; */
+    margin-top: 10px;
+    font-family: orpheus-pro;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.4em;
+}
+
+.healthcare-sub-title-2 {
+    font-family: auto;
+    font-size: 15px;
+}
+
+.header-search {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: black
+}
+
+.custom-nav-items {
+    color: #000 !important;
+    font-weight: 600;
+    /* margin-bottom: -1rem; */
+}
+
+.custom-nav-items:hover {
+    /* color: #2f6690 !important; */
+    color: #0f70a0 !important;
+}
+
+.custom-nav-items:focus {
+    /* color: #2f6690 !important; */
+    color: #0f70a0 !important;
+}
+
+.right-items {
+    align-items: baseline;
+}
+
+.right-items-center {
+    align-items: center;
+}
+
+.account-label {
+    margin-right: .5rem;
+    margin-left: 1rem;
+}
+
+.account {
+    color: #000;
+}
+
+.account-logo {
+    transform: scale(1.5);
+    /* margin-right: 1.3rem; */
+    /* margin-bottom: .5rem; */
+}
+
+.accnt {
+    margin-top: 11px;
+}
+
+.capitalize {
+    text-transform: uppercase;
+}
+
+.cart-icon {
+    transform: scale(1.5);
+    margin-right: .3rem;
+    /* margin-bottom: .5rem; */
+}
+
+.account-logo-login {
+    transform: scale(1.5);
+    margin-right: 0.5rem;
+    /* margin-bottom: .5rem; */
+}
+
+.dropdown-icon-account {
+    width: 40px;
+    position: relative;
+    right: -73px;
+    font-size: 20px;
+    line-height: 40px;
+    cursor: pointer;
+    z-index: 1;
+    top: -23px;
+}
+
+.account-dropdown {
+    z-index: 2;
+    position: absolute;
+    font-family: orpheus-pro;
+}
+
+.account-dropdown-position {
+    margin-top: 0.6rem;
+    margin-left: -4.4rem;
+    width: max-content;
+}
+
+.accnt-drop {
+    background-color: #fff;
+    /* border-bottom: 7px solid #2f6690; */
+    box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+    padding: 10px !important;
+}
+
+.mr-30 {
+    margin-right: 27px;
+}
+
+.list-group-account {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.custom-input-account {
+    padding-right: 43px;
+}
+
+.custom-dropdown-account:hover, .custom-dropdown-account:focus {
+    color: #0f70a0 !important;
+}
+
+.account-link {
+    text-decoration: none;
+    color: #000;
+}
+
+.account-link-container:hover {
+    background-color: rgb(248, 248, 248);
+}
+
+.settings-link {
+    border-bottom: 2px solid #e1e1e1 !important;
+    padding-bottom: 1.3rem !important;
+}
+
+.badge {
+    padding: 0.13em 0.4em;
+    border-radius: 1.25rem;
+    background: #a50204;
+    vertical-align: super;
+}
+
+@media (max-width: 991px) {
+    .account-dropdown-position {
+        margin-top: .5rem !important;
+    }
+
+    .menu-link {
+        margin-top: 1rem;
+    }
+
+    .account {
+        margin-top: 2rem;
+    }
+
+    .cart {
+        margin-top: 1rem;
+    }
+
+    .accnt {
+        margin-top: 11px;
+    }
+}

@@ -1,0 +1,14 @@
+.success {
+    background-color: rgba(2, 165, 51, 0.25);
+    color: #0d7a0d;
+    padding: 10px 15px;
+    font-size: 14px;
+}
+
+.close-icon-success {
+    float: right;
+    margin-left: 1rem;
+    transform: scale(1.5);
+    margin-top: 4px;
+    cursor: pointer;
+}
